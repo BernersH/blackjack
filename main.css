@@ -1,0 +1,99 @@
+/* 样式初始化 */
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+code, kbd, pre, samp {
+    font-family: couriernew, courier, monospace;
+}
+small {
+    font-size: 12px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+legend {
+    color: #000;
+}
+fieldset, img {
+    border: 0;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    margin: 0;
+}
+
+/* 我的样式 */
+
+html, body {
+    height: 95%;
+    width: 100%;
+}
+body {
+    background-image: url(img/table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upper {
+    height: 40%;
+    width: 99%;
+}
+.downer {
+    height: 59%;
+    width: 99%;
+}
+[class*="-area"] {
+    text-align: center;
+    height: 200px;
+}
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+}
+
+/*几个按钮*/
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+#start, #restart {
+    position: fixed;
+    right: 130px;
+    height: 50px;
+    border-radius: 10px;
+}
+#up-show, #down-show {
+    margin-top: 30px;
+    height: 35px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
